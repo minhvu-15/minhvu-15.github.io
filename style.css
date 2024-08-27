@@ -1,8 +1,8 @@
 body {
     background: rgba(68, 0, 0, 0.951);
-    color: rgb(4, 4, 4);
+    color: rgb(0, 0, 0);
     padding: 10px;
-    font-family: arial;
+    font-family: cursive;
 }
 #all-contents {
   max-width: 800px;
@@ -38,6 +38,7 @@ h1 {
 a {
     text-decoration: none;
     color: #ffffff;
+    font-family:serif;
 }
 
 /* main container area beneath menu */
