@@ -18,14 +18,15 @@ nav {
     padding: 10px;
     border-style: double;
     border-width: 8px;
-    border-color:rgba(23, 48, 83, 0.924)
+    border-color:rgba(18, 36, 62, 0.924)
 }
 h1 {
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(255, 255, 255);
     flex: 1;
     margin: 0;
+    font-family:Monospace;
 }
 #nav-ul {
     list-style-image: none;
@@ -36,7 +37,7 @@ h1 {
 }
 a {
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
 }
 
 /* main container area beneath menu */
@@ -70,7 +71,8 @@ h2, h3 {
 
          /* portfolio styles */
          .content h1 {
-            color: black;
+            color: rgb(0, 0, 0);
+            font-family:Fantasy;
         }
 
         #portfolio {
@@ -79,17 +81,20 @@ h2, h3 {
         }
 
         #portfolio li {
-            background: #fff;
+            background: #ac0101bf;
             padding: 10px;
             border-radius: 10px;
             margin-bottom: 10px;
+            border-style: solid;
+            border-width: 5px;
         }
 
         #portfolio li:hover {
-            background: #eee;
+            background: #d7d7d7;
         }
 
         #portfolio a {
             text-decoration: none;
-            color: #454545;
+            color: #f7f5f5;
+            font-family:Cursive;
         }
