@@ -42,6 +42,9 @@ $(function () {
     createPlatform(300, 670, 5, 70); // short but wide platform located 500 pixels from the left of the screen and 300 pixels from the top of the screen
     createPlatform(200, 655, 200, 15); // short but wide platform located 500 pixels from the left of the screen and 300 pixels from the top of the screen
     createPlatform(400, 720, 1000, 20); // short but wide platform located 500 pixels from the left of the screen and 300 pixels from the top of the screen
+    createPlatform(500, 520, 200, 20); // short but wide platform located 500 pixels from the left of the screen and 300 pixels from the top of the screen
+    createPlatform(850, 610, 200, 20); // short but wide platform located 500 pixels from the left of the screen and 300 pixels from the top of the screen
+    createPlatform(1200, 500, 180, 20); // short but wide platform located 500 pixels from the left of the screen and 300 pixels from the top of the screen
     
     // TODO 2
     // Create collectables
